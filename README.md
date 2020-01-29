@@ -2,7 +2,7 @@
 
 ## Students
 
-Abenezer Wudenhe
-Joel Borja
-Nicholas Kory
-Zhuocheng Shang
+- Abenezer Wudenhe
+- Joel Borja
+- Nicholas Kory
+- Zhuocheng Shang
