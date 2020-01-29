@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>CS 225 Initial Web Test</title>
+    <style>
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. 
+        Source:  
+        https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/layer-kml;
+        https://developers.google.com/maps/documentation/javascript/kml
+       */
+      #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+    </style>
+  </head>
+  <body>
+     <div id="map"></div>
+    <script>
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), { zoom: 15, center: {lat: 33.973, lng: -117.328} });
+        // var myParser = new geoXML3.parser({map: map});
+        // myParser.parse('AgOps_alloc_blocks_20200128.kml');
+        var src = 'https://www.dropbox.com/s/q02gctpvydczsr2/LandAlloc_20191120.kml?dl=1';
+        var kmlLayer = new google.maps.KmlLayer(src, { suppressInfoWindows: true, preserveViewport: false, map: map});
+
+      }
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAg7_eXXsZSr0Z3S_ln46ttogfCEPNVqLg&callback=initMap"> </script>
+
+
+
+  </body>
+</html>
+
