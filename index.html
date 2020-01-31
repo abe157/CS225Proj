@@ -26,11 +26,16 @@
      <div id="map"></div>
     <script>
       function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), { zoom: 15, center: {lat: 33.973, lng: -117.328} });
+        var map = new google.maps.Map(document.getElementById('map'), { zoom: 20, center: {lat: 33.973, lng: -117.328} , mapTypeId: 'satellite' });
         // var myParser = new geoXML3.parser({map: map});
         // myParser.parse('AgOps_alloc_blocks_20200128.kml');
         var src = 'https://www.dropbox.com/s/q02gctpvydczsr2/LandAlloc_20191120.kml?dl=1';
-        var kmlLayer = new google.maps.KmlLayer(src, { suppressInfoWindows: true, preserveViewport: false, map: map});
+        var kmlLayer = new google.maps.KmlLayer(src, { suppressInfoWindows: false, preserveViewport: false, map: map});
+        // kmlLayer.addListener('click', function(event) {
+        //   var content = event.featureData.infoWindowHtml;
+        //   var testimonial = document.getElementById('capture');
+        //   testimonial.innerHTML = content;
+        // }
 
       }
     </script>
