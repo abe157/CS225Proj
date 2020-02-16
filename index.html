@@ -1,45 +1,44 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta name="viewport" content="initial-scale=1.0">
+
+    <!-- <link type="file" href="./LandAlloc_20191120.kml" /> -->
+    <!-- <iframe id='iframe' src = './LandAlloc_20191120.kml' onload='readfile()'> </iframe> -->
+    <link href="leaflet/leaflet.css" rel="stylesheet" type="text/css">
+    <script src="leaflet/leaflet.js" type="text/javascript"></script> 
+
+
+    <!-- <script src='https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.3.1/leaflet-omnivore.min.js'></script> -->
+    <!-- <script src="./L.KML.js"></script> -->
+    <!-- <script src="leaflet-omnivore.min.js" type="text/javascript"></script>  -->
+
+    <!-- <link rel="stylesheet" type="text/css" href="http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css" /> -->
+    <!-- <script type='text/javascript' src='//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js'></script> -->
+    <!-- <script type='text/javascript' src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.js'></script> -->
+
+
+
+    <script src="kmlparser.js" type="text/javascript"></script> 
+    <link href="mapstyle.css" rel="stylesheet" type="text/css">
+    <script src="gmaps.js" type="text/javascript"></script> 
+    
+
+
+
+    <meta name="viewport" content="initial-scale=1.0">    
     <meta charset="utf-8">
-    <title>CS 225 Initial Web Test</title>
-    <style>
-      /* Always set the map height explicitly to define the size of the div
-       * element that contains the map. 
-        Source:  
-        https://developers-dot-devsite-v2-prod.appspot.com/maps/documentation/javascript/examples/layer-kml;
-        https://developers.google.com/maps/documentation/javascript/kml
-       */
-      #map {
-        height: 100%;
-      }
-      /* Optional: Makes the sample page fill the window. */
-      html, body {
-        height: 100%;
-        margin: 0;
-        padding: 0;
-      }
-    </style>
+    <title>CS 225 Test</title>
+
   </head>
   <body>
-     <div id="map"></div>
-    <script>
-      function initMap() {
-        var map = new google.maps.Map(document.getElementById('map'), { zoom: 20, center: {lat: 33.973, lng: -117.328} , mapTypeId: 'satellite' });
-        // var myParser = new geoXML3.parser({map: map});
-        // myParser.parse('AgOps_alloc_blocks_20200128.kml');
-        var src = 'https://www.dropbox.com/s/q02gctpvydczsr2/LandAlloc_20191120.kml?dl=1';
-        var kmlLayer = new google.maps.KmlLayer(src, { suppressInfoWindows: false, preserveViewport: false, map: map});
-        // kmlLayer.addListener('click', function(event) {
-        //   var content = event.featureData.infoWindowHtml;
-        //   var testimonial = document.getElementById('capture');
-        //   testimonial.innerHTML = content;
-        // }
 
-      }
+
+    
+
+    <div id="mapid" style="height: 100%; width:100%;'margin: 0;padding: 0;"></div>
+    <script type="text/javascript">
+      LoadMap();
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAg7_eXXsZSr0Z3S_ln46ttogfCEPNVqLg&callback=initMap"> </script>
 
 
 
