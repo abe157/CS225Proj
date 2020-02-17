@@ -1,0 +1,8 @@
+Environment: Maven, Java JDK 1.8, node, npm
+Editor: IntelliJ idea
+Bug: need to fix SSL ERROR 
+
+Note: 
+Demo works on model "Product"
+back-end url: localhost:8080
+front-end url: localhost:3000
