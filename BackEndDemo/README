@@ -6,3 +6,6 @@ Note:
 Demo works on model "Product"
 back-end url: localhost:8080
 front-end url: localhost:3000
+
+for "Front" folders, need to install node and npm inorder to install "node_models" on the project route.
+(for more details could rearch about install React app)
