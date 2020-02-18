@@ -26,10 +26,14 @@ function AddPolygon(field, map, color='blue'){
 	*/ 
 	var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
 	var popupContent = field.itemhtml.getElementsByTagName("description")[0].outerHTML // popup discription
+	// popupContent = popupContent.substr(0, popupContent.length-3)
+	popupContent += "<button type=\"button\" class=\"btn btn-secondary\" onclick=\"window.location.href = 'order.html';\"  >New Order</button>";
 	polygon.bindPopup(popupContent)
 }
 
-
+function showPosition(position) {
+  // alert(position);
+}
 
 function LoadMap() {
 	var x = navigator.onLine;
@@ -47,6 +51,16 @@ function LoadMap() {
 	for(const feild of kmlfile.fields){
 		AddPolygon(feild , mymap);
 	}
+
+	// if (navigator.geolocation) {
+	// 	navigator.geolocation.getCurrentPosition(showPosition);
+	// } else {
+	// 	alert("CANT DO IT");
+ //  	}
+
+ //  	alert(position.coords.latitude);
+
+	// mymap.map.locate({setView : true});
 
 }
 
