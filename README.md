@@ -32,15 +32,14 @@ There is no implementation of the completion of orders on the document page.
 
 ## Sources
 
-[Super Helpful video on getting started with node](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X) 
-
-[SQL & Java Script](https://www.sitepoint.com/using-node-mysql-javascript-client/)
-[Javascript creating HTML Elements](https://htmldog.com/guides/javascript/advanced/creatingelements/)
-[Boostrap list group element class](https://getbootstrap.com/docs/4.0/components/list-group/)
-[Using CSV & MySQL Work Bench]https://www.youtube.com/watch?v=vzYFZXI43hM
-[Date & Time w/ Bootstrap](https://bootstrap-datepicker.readthedocs.io/en/latest/)
-[SQL date & time formats](https://www.w3schools.com/sql/func_sqlserver_convert.asp)
-[Bootstrap list styles class](https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp)
-[Boostrap grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
+- [Super Helpful video on getting started with node](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X) 
+- [SQL & Java Script](https://www.sitepoint.com/using-node-mysql-javascript-client/)
+- [Javascript creating HTML Elements](https://htmldog.com/guides/javascript/advanced/creatingelements/)
+- [Boostrap list group element class](https://getbootstrap.com/docs/4.0/components/list-group/)
+- [Using CSV & MySQL Work Bench](https://www.youtube.com/watch?v=vzYFZXI43hM)
+- [Date & Time w/ Bootstrap](https://bootstrap-datepicker.readthedocs.io/en/latest/)
+- [SQL date & time formats](https://www.w3schools.com/sql/func_sqlserver_convert.asp)
+- [Bootstrap list styles class](https://www.w3schools.com/bootstrap/bootstrap_list_groups.asp)
+- [Boostrap grid system](https://getbootstrap.com/docs/4.0/layout/grid/)
 
 
