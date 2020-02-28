@@ -1,0 +1,391 @@
+iChemNo,strEpaNo,strChemical,strManufacturer,enType,txtActive,dcUnitSize,unitType,defaultUnit,bIsLiquid,dcDefRate,defRateUnit,dcDefRatePer,defRatePerUnit,dcConcentration,iReiHours,bUseStandard,bCoveralls,bGoggles,bBoots,bRespirator,bApron,bMask,bOverhead,bRain,bScba,txtNotes,bMarkDeleted
+45,,15-15-15,,Z,,1,lb,lb,0,150,lb,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+408,,15-5-8,,N,,40,lb,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+255,N/A,"15-5-8 Microgreen",N/A,Z,,0,,,0,3.3,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+87,,19-0-19,,Z,Nitrogen,0,,,0,2.6,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+51,,20-20-20,,Z,,1,lb,lb,0,20,lb,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+88,,21-7-14,,Z,,0,,,0,2.4,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+89,n/a,27-3-4,,Z,,0,,,0,1.9,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+49,,28-08-18,"Nutriculture-SQM North America",Z,,1,lb,lb,0,0.4,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+409,,28-8-18,"SQM North America",N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+90,n/a,29-2-4,n/a,N,,0,,,0,1,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+91,N/A,"31-0-0 PAR EX",N/A,N,NITROGEN,0,,,0,1.5,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+92,N/A,"33-0-10 Scotts",Scotts,N,,0,,,0,0.25,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+93,,39-0-0,,Z,,0,,,0,2.6,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+94,,41-0-0,"Harrell? LLC",N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+36,34704-727,"415 SPRAY OIL","PLATTE CHEMICAL CO.",N,"PETROLEUM OIL",1,gal,qt,1,1,gal,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+95,,43-0-0,,Z,Nitrogen,40,lb,,0,2.3,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+96,N/A,"440 OIL",N/A,N,,0,,,1,14.5,gal,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+68,N/A,"46-0-0 Urea",N/A,Z,,1,lb,lb,0,230,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+97,N/A,"6-2-0 MILORGANITE","MILWAUKEE SEWAGE",N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+98,100-497,"AATREX 4L",Syngenta,H,ATRAZINE,3,gal,,1,3.2,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+99,100-585,"AATREX NINE-0",NOVARTIS,N,Atrazine,25,lb,,0,2,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+100,72167-43-66222,"Abba .15 ec",Mana,N,,1,gal,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+101,46073-TN-003,Acelepryn,,I,,0,,,1,0.2,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+67,,"Acephate 97",,N,,1,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+102,2217-630-33955,"ACME CRABGRASS KILL","PBI GORDON",N,"Monosodium Acid Methanearsonate",1,qt,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+1,N/A,"ACTIVATOR 90",N/A,N,,1,gal,ml,1,2,flz,100,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+103,3125-422,"ADMIRE 2F","MILES INC.",N,Imidocloprid,3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 20OZ/20GL/AC",0
+104,264-827,"ADMIRE PRO",BAYER,H,IMIDACLORPRID,0,,,1,14,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+105,5905-50017-AA,AGRI-DEX,HELENA,N,,1,gal,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+106,100-1351,Agrimek,Syngenta,H,Abamectin,0,,,1,1,lb,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+2,,"Akari 5SC",,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+107,400-49,ALANAP-L,UNIROYAL,N,Naptalam,0,,,1,48,qt,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+50,,Alecto,,N,,1,gal,gal,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+108,264-758-AA-66222,"Alias 2F",Makhteshim-Agan,N,Imidacloprid,0,,,1,1.3,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+109,10182-18,"ALIETTE WDG",FARNAM,N,Permethrin,5,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+110,264-1106,Alion,"Bayer Crop Science",H,,0,,,1,3.5,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+111,Apr-80,"ALL SEASONS HORT OIL","BONIDE PRODUCTS",N,"PARAFFINIC OIL",1,qt,,1,1,pt,50,gal,,4,0,0,0,0,0,0,0,0,0,0,,0
+69,N/A,"AM NITRATE 34%",UNOCAL,N,,1,lb,lb,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+112,N/A,"AM PHOS 16-20-0-13",SIMPLOT,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+86,N/A,"AM SULFATE 21-0-0",N/A,Z,,1,lb,lb,0,10,lb,1000,acre,,120,0,0,0,0,0,0,0,0,0,0,,0
+113,10182-18,AMBUSH,ZENECA,N,Permethrin,1,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+114,67485-09-4,Amdro,,I,Hyndramethylnon,0,,,0,30,gr,1,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+116,71711-15,APPLAUD,"NICHINO AMERICA",N,BUPROFEZIN,0,,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+117,,"AQUA GRO L",AQUATROLS,N,"Polyoxyethylene Esters",1,gal,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+3,,Aria,,N,,4,oz,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+118,352-515,"ASANA XL",DUPONT,H,Esfenvalerate,1,gal,,1,6,flz,100,gal,,12,0,0,0,0,0,0,0,0,0,0,,0
+119,5905-470,"ATRAZINE 4L",HELENA,H,ATRAZINE,0,,,1,3.2,pt,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+4,,"Avid 0.15EC",,N,,1,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+121,71908-1-AA-10163,"AZA Direct","Gowan Company",N,1.2-Azadirachtin,0,,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+5,,"Azatin XL",,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+122,34704-746,"BALAN DF","UNITED AGRI PRODUCTS",N,Benefin,13,lb,,0,2,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+123,100-641,BANNER,CIBA-GEIGY,N,PROPICONAZOLE,0,,,1,0.9,flz,1000,sqft,,24,0,0,0,0,0,0,0,0,0,0,,0
+124,100-741,"BANNER MAXX",CIBA,N,Propiconazole,0,,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+125,876-25-AA,BANVEL,VELSICOL,N,"DIMETHYLAMINE SALT OF DICAMBA",1,gal,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+126,,"Barricade 4FL",,H,,0,,,1,0.5,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+127,100-834,"BARRICADE 65WG",NOVARTIS,H,Promiamine,5,lb,,0,2.3,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+130,3125-320,"BAYLETON 50W",BAYER,N,Triadimefon,2,lb,,0,2,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+131,3125-351,BAYTHROID,BAYER,I,,1,gal,,1,0.8,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+132,352-354,BENLATE,DUPONT,N,Benomyl,5,lb,,0,6,gr,1,sqm,,24,0,0,0,0,0,0,0,0,0,0,,0
+133,264-621,BETAMIX,AVENTIS,N,"Phenmedipham-8%+ Desmedipham-8%",3,gal,,1,3,flz,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+134,53883-189,"Bifen XTS",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+135,,"Blank Field",,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+6,,"Boot Hill Bait",,N,,2,oz,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+136,50534-188-100,"BRAVO WEATHER STIK",SYNGENTA,F,Chlorothalonil,3,gal,,1,2,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+137,279-3108,"brigade wsb","fmc corp.",I,10-bifenthrin,0,,,0,16,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+417,100-1433,Briskway,Syngenta,N,Azoxystrobin,1,gal,,1,0.3,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+138,264-540,"BUCTRIL 4EC",RHONE-POULENC,H,"Bromoxynil Heptanoate + Bromoxynil Octanoate",3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: .6PT/50GL/AC",0
+139,50534-6-AA-10182,BUENO-6,SYGENTA,N,MSMA,0,,,1,1,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+140,1021-1110-54705,"BUG BUSTER-O",MONTEREY,N,PYRETHRINS,1,pt,,1,8,pt,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+142,N/A,"CALCIUM NIT 15.5-0-0",WGM,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+143,,"can 17",Best,Z,,0,,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+144,100-620,"Caparol 4L","Syngenta Crop",H,,0,,,1,2.4,pt,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+7,,"Captan 80 WDG",,N,,6,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+145,11656-21,"CARBARYL CUT WORM","WESTERN FARM SERVICE",N,CARBARYL,50,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+146,524-534,Certainty,,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+147,264-480,"CHIPCO 26 GT",RHONE-POULENC,N,Iprodione,0,,,1,4,flz,1,,,24,0,0,0,0,0,0,0,0,0,0,,0
+148,264-481,"CHIPCO 26019","RHONE POULENC",N,Iprodione,0,,,0,2,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+70,,"Citric Acid",,N,,1,gal,gal,1,20,gal,100,gal,,121,0,0,0,0,0,0,0,0,0,0,,0
+149,5481-145,"Citrus Fix",AMVAC,N,,0,,,1,1.9,flz,1000,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+150,53219-1-4,"COLORADO BEETLE BEAT",BONIDE,N,"Bacillus thuringiensis",1,qt,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+151,N/A,"Complex Iron",N/A,N,,0,,,0,1,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+8,,"Conserve SC",,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+152,10465-3,"COPPER COUNT N","MINERAL RESEARCH",N,,0,,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+153,45923-2,"COPPER SULFATE","MONTEREY CHEMICAL",N,"Copper Sulfate",50,lb,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+154,7969-224,CURALAN,BASF,N,VINCLOZOLIN,0,,,0,1,flz,1000,sqft,,120,0,0,0,0,0,0,0,0,0,0,,0
+155,N/A,daconil,N/A,F,,0,,,0,1,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+156,50534-9,"DACONIL 2787",FERMENTA,F,Chlorothalonil,3,gal,,1,0,,0,,,48,0,0,0,0,0,0,0,0,0,0,,0
+157,50534-202-10182,"DACONIL ULTREX",ZENECA,F,CHLOROTHALONIL,0,,,0,3.2,flz,1000,sqft,,48,0,0,0,0,0,0,0,0,0,0,,0
+158,,"Daconil WeatherStik",,F,,0,,,1,4,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+159,50534-1,"DACTHAL W-75","FERMENTA PLANT",H,DCPA,4,lb,,0,6,lb,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 12#/50GL/AC",0
+55,59639-35,danitol,valent,I,fenpropathrin,1,gal,flz,1,2,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+160,,"danitol 2.4 ec",,I,,0,,,1,10,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+56,,"Danitol 2.4EC",,N,,1,gal,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+161,64864-2,"DEADLINE BULLETS",VALENT,N,Metaldehyde,50,lb,,0,10,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+57,,Devrinol,,N,,1,gal,gal,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+162,100-1035-70506,"devrinol 50 df","united phosphorus",H,napropamide,0,,,0,8,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+174,3125-307,"DI-SYSTON 8",BAYER,N,Disulfoton,3,gal,,1,0,,0,,,48,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1PT/100GL/AC",0
+410,228-379,Diablo,Nufarm,H,Dicamba,3,gal,,1,8,flz,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+163,100-469,"DIAZINON 14G",CIBA-GEIGY,N,Diazinon,0,,,0,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+164,100-463,"DIAZINON 4E",CIBA,N,Diazinon,3,gal,,1,1,gal,100,gal,,24,0,0,0,0,0,0,0,0,0,0,,0
+165,34704-493,"DIAZINON 5G",CIBA-GEIGY,N,DIAZINON,0,,,0,3,lb,1000,sqft,,24,0,0,0,0,0,0,0,0,0,0,,0
+166,100-461,"DIAZINON AG500",CIBA,N,Diazinon,0,,,1,1,pt,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+168,19713-232,"DIMETHOATE 2.67 EC","DREXEL CHEMICAL CO.",N,Dimethoate,3,gal,,1,1,gal,100,gal,,48,0,0,0,0,0,0,0,0,0,0,,0
+169,5905-493,"DIMETHOATE 4EC",HELENA,N,Dimethoate,0,,,1,1,pt,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+170,275-37,"DIPEL 2X","ABBOTT LAB.",I,"Bacillus Thuringiensis var. kurstaki",1,lb,,0,0.5,lb,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+172,10182-353,DIQUAT,ZENECA,N,"Diquat Dibromide",0,,,1,2,qt,100,gal,,24,0,0,0,0,0,0,0,0,0,0,,0
+173,1812-362,"DIREX 80DF",GRIFFIN,N,DIURON,0,,,0,2,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+9,,Distance,,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+175,707-180,"DITHANE DF","ROHM & HAAS",N,Mancozeb,0,,,0,2,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+176,19713-274,"DIURON 80",DREXEL,N,Diuron,4,lb,,0,4,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+177,54552-2,DORMEX,"DEGUSSA AG",N,"Hydrogen Cyanamide",0,,,1,0,,0,,4,72,0,0,0,0,0,0,0,0,0,0,,0
+178,7969-130,"drive 75df",basf,H,quinclorac,0,,,0,0.37,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+179,7969-272,"Drive XLR8",BASF,H,quinclorac,0,,,1,1.45,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+180,100-673,DUAL,NOVARTIS,N,Metolachlor,0,,,1,2,qt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+181,100-597,"DUAL 8E",NOVARTIS,N,Metolachlor,0,,,1,2,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+71,100-816,"DUAL MAGNUM",NOVARTIS,H,S-Metolachlor,1,pt,pt,1,1.5,pt,1000,acre,,24,1,0,0,0,0,0,0,0,0,0,,0
+182,62719-65,"DURSBAN 2E","DOW CHEMICAL",N,Chlorpyrifos,3,gal,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+183,62719-166,"DURSBAN PRO",DOW,N,Chlorpyrifos,3,gal,,1,5,flz,1000,sqft,,4,0,0,0,0,0,0,0,0,0,0,,0
+184,3125-184,DYLOX,N/A,N,"Dimethyl Phosphonate",0,,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+185,,"Dynamec 1.8 EC",Dynamec,I,Abamectin,0,,,0,8,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 250/500ml/ha",0
+186,5905-50071-AA,Dyne-Amic,"Helena Chemical",N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+187,62719-417,"Eagle 40WP","Dow AgroSciences",N,Myclobutanil,0,,,0,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+188,264-749,"ELITE WP",BAYER,N,TEBUCONAZOLE,0,,,0,4,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+189,7969-196,EMERALD,"BASF Corporation",F,"70- Boscalid",0,,,0,5.7,flz,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+10,,Endeavor,,N,,15,oz,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+11,,"Enstar AQ",,N,,1,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+190,10182-220,"EPTAM 7-E",ZENECA,N,"S-ethyl dipropylthiocarbamate",3,gal,,1,4.5,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+191,10182-223,"ERADICANE 6.7E",ZENECA,N,EPTC,3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 7PTS/AC/50GAL",0
+192,n/a,"experimental compoun","mc giffin",N,?,3,gal,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+72,,"Extinguish plus",,N,,1,flz,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+193,N/A,"FE 31",N/A,N,,0,,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+194,N/A,Ferromec,N/A,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+195,N/A,"Ferrous Sulfate",N/A,N,,0,,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+196,N/A,"FERT-ALL MB ZN+MICRO","GRO MORE",N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+197,45639-187,FINALE,"AGREVO CHEM",N,Glufosinate-ammonium,0,,,1,2.5,flz,1,gal,,12,0,0,0,0,0,0,0,0,0,0,,0
+199,80990-1,"Fireline 17 wp","Agro Source",N,"Oxytetracycline Hydrochloride",0,,,1,6.8,,50,gal,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: None",0
+12,,"Flagship 25WG",,N,,1,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+200,264-777,flint,"bayer crop science",N,trifloxystrobin,0,,,1,3,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+13,,"Floramite SC",,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+201,CA-1050775-50023,FOAM-AWAY,"CREATIVE MARKETING",N,Polydimethylsiloxane,1,qt,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+202,N/A,"FOLIAR SPRAY MIX","CVARS-SEE CARD",N,,0,,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+204,7969-147,"FRONTIER 6.0",BASF,N,DIMETHENAMID,1,qt,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+14,,Fulfil,,N,,28,oz,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+205,5857-1,FUMITOXIN,"PEST CON SYSTEMS",N,"Aluminum Phosphide REI: When gas concentration is 0.3ppm or below.",3,lb,,0,300,,1000,bushel,,4,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: None",0
+418,100-1084,"Fusilade II",Syngenta,N,Fluazifop,1,qt,,1,2,flz,1000,,,0,0,0,0,0,0,0,0,0,0,0,,0
+207,42750-61,"Gly Star Plus","Albaugh Inc.",N,Glyphosate,0,,,1,0,,0,,1,4,0,0,0,0,0,0,0,0,0,0,,0
+208,72112-4,"glyphosate pro 4",prokoz,N,glyphosate,0,,,1,0,,0,,1,4,0,0,0,0,0,0,0,0,0,0,,0
+209,707-243,"GOAL 2XL",ROHM-HAAS,N,Oxyfluorfen,3,gal,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 3QT/50GL/AC",0
+210,62719-447,GoalTender,Dow,H,"oxyfluorfen:2-chloro-1(3-ethoxy-4-nitrophenoxy)4-trifluoromethyl)benzene 41% Other ingredients: 59%",0,,,1,0.25,pt,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+58,10182-280,GRAMOXONE,ZENECA,N,"Paraquat Dichloride",1,gal,flz,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+211,100-1074,"GRAMOXONE MAX",SYNGENTA,N,PARAQUAT,0,,,1,1,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+212,7969-58-54705,"Grass Getter",Monterey,H,Sethoxydim,1,pt,,1,1,flz,1,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+213,N/A,GYPSUM,BEST,N,,0,,,0,200,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+15,10182-408,HERITAGE,ZENECA,F,Azoxystrobin,1,lb,gr,0,0.5,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+419,131860-33-8,"Heritage Action",Syngenta,N,Azoxystrobin,1,lb,,0,0.2,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+214,1148-50034ZA,"HINDER DEER-RABBIT",LEFFINGWELL,N,"Ammonium Soaps",1,gal,,1,1,qt,5,gal,,4,0,0,0,0,0,0,0,0,0,0,,0
+75,524-454,"HONCHO PLUS",MONSANTO,G,GLYPHOSATE,1,gal,gal,1,2,flz,1000,gal,1,12,1,1,0,0,0,0,0,0,0,0,,0
+215,228-313,Horsepower,"NuFarm Specialty Pro",H,"MCPA + TRICLOPYR + DICAMBA",0,,,1,0.73,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+216,352-287,"HYVAR X",DUPONT,N,,4,lb,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+217,N/A,"IBDU 31%","PAR EX",Z,,0,,,0,1.6,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+218,5905-50091,Induce,,N,,0,,,1,0.6,flz,1000,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+219,N/A,INFILTRIX,AQUATROLS,N,"NON-IONIC POLYOLS",0,,,1,0.75,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+220,42697-1,"Insecticidal Soap",Safer,N,"Potassium Salts",1,pt,,1,2.5,flz,1,,,4,0,0,0,0,0,0,0,0,0,0,,0
+221,7969-184,INSIGNIA,BASF,F,PYRACLOSTROBIN,0,,,1,0.5,flz,1000,sqft,,4,0,0,0,0,0,0,0,0,0,0,,0
+222,N/A,"IRON SULFATE",WGM,N,,0,,,0,1,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+223,N/A,IRONITE,"ACME CHEM.",N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+76,70051-66,Javelin,,N,,1,lb,lb,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+224,,"Kaolin Crop Spray",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+225,,"Kaolinite Clay",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+59,352-508,"KARMEX DF","DU PONT",H,DIURON,1,gal,gal,1,1,lb,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2#/AC/50GAL",0
+226,1812-362,"KARMEX XP",GRIFFIN,N,DIURON,0,,,0,4,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+77,71512-12-2217,katana,,H,,1,lb,lb,0,1.5,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+227,707-159,"KERB 50W",ROHM-HAAS,H,Pronamide,3,lb,,0,2,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+228,62719-578,"KERB SC T&O","Dow Agro Sciences",H,,0,,,1,2.5,pt,1000,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+16,,"Kleenup Pro LPI",,N,,3,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+43,352-370,"LANNATE 1.8E",DUPONT,I,Methomyl,1,gal,gal,1,1,lb,1000,acre,,72,0,0,0,0,0,0,0,0,0,0,,0
+42,,"Lannate SP",,N,,1,lb,lb,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+229,11656-101,"LEAF LIFE","WESTERN FARM SERICE",N,"Petroleum Oil",0,,,1,3.5,gal,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+230,264-1104,"Leverage 360",Bayer,I,Imidacloprid,0,,,1,6.4,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+231,239-1173-AA,LINDANE,"CHEVRON CHEMICAL",N,Lindane,8,oz,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+232,352-394,"LOROX DF",DUPONT,I,Linuron,20,lb,,0,2,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+233,n/a,Lorsban,n/a,I,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+234,62719-34,"LORSBAN 15G",DOWELANCO,N,Chlorpyrifos,50,lb,,0,6,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+235,62719-220,"LORSBAN 4E",DOWELANCO,N,Chlorpyrifos,3,gal,,1,2,pt,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+236,62719-591,"Lorsban Advanced","DOW AgroSciences",I,,0,,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+237,N/A,"Low Biuret Urea",N/A,Z,46-0-0,0,,,0,67.5,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+238,,"Lubin Org. Penetrant","Lubin Fert&Equip Cor",N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+263,53219-6,M-PEDE,MYCOGEN,N,,3,gal,,1,0,,0,,,121,0,0,0,0,0,0,0,0,0,0,,0
+239,71368-29,"Maestro 2EC","Nufarm Inc",N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+240,N/A,"MAGNISOIL 11-0-0-18",N/A,N,,0,,,0,10,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+241,N/A,magnum,N/A,H,,0,,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+33,34704-890-ZA,MAKAZE,,G,glyphosate,1,gal,gal,1,2,flz,1000,gal,1,4,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1%",0
+242,101163-21,"MALATHION 8E",GOWAN,N,Malathion,1,gal,,1,1,pt,100,gal,,12,0,0,0,0,0,0,0,0,0,0,,0
+245,352-449,"MANZATE 200 DF","DU PONT",N,Mancozeb,0,,,0,2,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+246,3125-452-69807,MARATHON,OLYMPIC,N,IMIDACLOPRID,5,lb,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+32,,"Marathon 1%G",,N,,5,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+17,,"Marathon 60 WP",,N,,100,gr,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+247,2217-674,"Mecomec 4",PBI-Gordon,H,MCPP-P,0,,,1,1.25,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+248,432-1314,MERIT,BAYER,N,Imidacloprid,0,,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+249,9663-6,"MESAMATE 600","CRYSTAL CHEMICAL CO.",N,"Monosodium Acid Methanersonate",1,qt,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+250,5481-423,"METAM 426","AMVAC CHEMICAL",N,"Sodium Methyldithiocarbamate",5,gal,,1,0,,0,,,48,0,0,0,0,0,0,0,0,0,0,,0
+251,N/A,"METAPHYCUS HELVOLUS","FILLMORE INSECTARY",N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+252,5785-4,METHYL-BROMIDE,"GREAT LAKES",I,"Methyl Bromide",0,,,0,400,lb,1,acre,,144,0,0,0,0,0,0,0,0,0,0,,0
+253,,"Metribuzin 75",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+254,N/A,"MG NO3",N/A,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+412,N/A,MICROGREEN,N/A,Z,,0,,,0,3.3,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+256,N/A,MICROPLEX,MILLER,N,,0,,,0,1,lb,3,,,0,0,0,0,0,0,0,0,0,0,0,,0
+257,4581-373,MICROTHIOL,CEREXAGRI,N,SULFUR,0,,,0,3,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+258,62719-537,Milestone,"Dow Agrosciences",N,"Triisopropanol Ammonium Salt",0,,,1,5,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+259,N/A,Milorganite,N/A,N,,0,,,0,1,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+260,,"Milt's Extract",,N,,0,,,1,69,ml,3500,ml,,0,0,0,0,0,0,0,0,0,0,0,,0
+261,N/A,"MIRACLE GROW",N/A,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+262,359-701,MODOWN,RHONE-POULENC,N,Bifenox,3,gal,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+19,,Movento,,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+264,34704-50067,"MSO Concentrate","Loveland Products",N,"Methylated vegetable oil",0,,,1,0.6,flz,1,gal,0.5,0,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: % v",0
+274,N/A,"N-PHURIC 15-00-16-49",UNOCAL,N,,0,,,1,1.4,gal,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+20,,Nacco-san,,N,,1,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+266,N/A,Naiad,N/A,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+267,48498-CA-01,NALCOTROL,"MONTEREY CHEMICAL CO",N,"Polyvinyl polymer",1,qt,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+268,34704-727,"NARROW RNG OIL 415","CLEAN CROP",N,"Mineral Oil",5,gal,,1,1.4,gal,100,gal,,12,0,0,0,0,0,0,0,0,0,0,,0
+269,N/A,"NEMACUR 10G",BAYER,N,Fenamiphos,10,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+270,3125-283,"NEMACUR 3",BAYER,N,"ETHYL 3-METHYL-4-(METHYLTHIO)PHENYL - 91-METHYLETHYL)PHOSPHORAMIDATE",0,,,1,2.5,gal,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+271,n/a,neptune,"loveland chemical",N,,30,gal,,1,6,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+272,N/A,"NITRA KING 22-3-9",SIMPLOT,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+413,228-528,Nuprid,"Nufarm Americas Inc",N,,0,,,1,16,flz,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+275,N/A,NUTRA-SOL,N/A,N,,1,lb,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+276,,nutri-comp,,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+277,,"Nutriphite Magnum",,N,,0,,,1,1,pt,200,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+278,,"Oberon 25C",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+279,1050775-50020AA,"OIL CONCENTRATE","CREATIVE MARKETING",N,"Petroleum Distillate and Alkylphenoxy Polyethoxy ethanols",0,,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1.5PT/35GL/AC",0
+280,,Orondis,"Syngenta Crop",H,,0,,,1,2.4,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+281,59639-26-AA,"ORTHENE 75S",VALENT,N,Acephate,0,,,0,1,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+282,59639-91,"ORTHENE 97",VALENT,N,ACEPHATE,1,lb,,0,0.09,flz,1,gal,,24,0,0,0,0,0,0,0,0,0,0,,0
+21,,"Orthene TT&O 97%",,N,,1,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+283,72167-17-73220,"ORYZALIN 4 A.S.",FarmSaver,N,Oryzalin,3,gal,,1,4,qt,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+41,,Osmocote,,Z,,1,gal,flz,1,5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+284,7969-156,OUTLOOK,BASF,N,DIMETHENAMID,1,pt,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+22,,"Overture 35 WP",,N,,1,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+285,780146,P.C.Q.,"Bell Laboratories",R,diphacinone,0,,,0,1,lb,1,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+286,N/a,"PAR EX 20-0-20",N/A,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+60,,Parazone,,N,,1,gal,pt,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+38,,Parrot,"J.R. Simplot Company",N,,1,gal,flz,1,0,,0,,,72,0,0,0,0,0,0,0,0,0,0,,0
+287,62719-176,"pathfinder II",dow,N,triclopyr,0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+288,N/A,pcq,N/A,R,,0,,,0,1,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+289,241-375,"PENDULUM 2G",BASF,N,PENDIMETHALIN,0,,,0,3,lb,1000,sqft,,24,0,0,0,0,0,0,0,0,0,0,,0
+414,241-416,"Pendulum Aquacap",Bayer,H,Pendimethalin,3,gal,,1,3.2,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+290,241-340,"PENDULUM WDG",CYANAMID,N,Pendimethalin,10,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+291,524-465,PERMIT,MONSANTO,N,HALOSULFURON,0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+292,,"peters 21-5-20",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+31,,"Peters XL Multi",,N,,25,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+293,N/A,"PHOS.ACID 0-52-0",VARIABLE,N,,0,,,1,1.6,gal,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+294,N/A,"PHOSGARD 0-28-25",N/A,N,Phophorus/Potassium,0,,,1,13,flz,100,,,0,0,0,0,0,0,0,0,0,0,0,,0
+295,N/A,"PHOSPHORIC ACID","GEORGE INDUSTRIES",N,,0,,,1,28,gal,1,,,0,0,0,0,0,0,0,0,0,0,0,,0
+296,70506-107,"Poa Constrictor",UPI,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+297,7969-58,POAST,BASF,N,Sethoxydim,1,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1.5PT/35GL/AC",0
+298,N/A,POT.NIT.13.8-0-44.5,"CEDAR CHEM.",Z,,0,,,0,16.6,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+299,,"Potassium Nitrogen",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+300,NA,"POTASSIUM SUL 0-0-50","PURE GRO",N,,0,,,0,400,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+302,10404-52,"PRE-M 60 DG",LESCO,N,Pendimethalin,0,,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+301,10163-200,"PREFAR 4E",GOWAN,H,Bensulide,3,gal,,1,5,qt,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 4QT/50GL/AC",0
+303,N/A,"PRIMER 604",AQUATROLS,N,"Polymeric polyoxyalkylenes",0,,,1,4,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+304,,"Primo Maxx","Syngenta Canada Inc",N,,0,,,1,0.75,flz,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+305,100-603,"PRINCEP CALIBER 90","CIBA GEIGY",N,Simazine,0,,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2#/50GAL/AC",0
+306,,Progibb,,N,,0,,,1,10,flz,1000,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+307,432-941,PROGRASS,"AVENTIS ES",N,Ethofumesate,0,,,1,2,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+308,45639-208,"PROSTAR 70 WP","AGREVO USA",N,FLUTOLANIL,0,,,0,2.2,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+78,241-243,"PROWL 3.3 EC","AMERICAN CYANAMID",H,Pedimethalin,1,gal,gal,1,4.8,pt,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1QT/50GL/AC",0
+309,1021-177212,pyganic,Valent,I,pyrethrins,0,,,1,1,pt,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+23,,"PyGanic EC 1.4 II",,N,,1,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+310,7969-327,Pylex,BASF,H,Topramezone,0,,,1,1,flz,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+312,,"Radiant SC",,I,,0,,,1,6,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+37,N/A,rally,N/A,N,Phosphorus,1,lb,oz,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+24,,"Rally 40 WSP",,N,,20,oz,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+313,707-215,"RALLY 40W",ROHM-HAAS,N,Myclobutanil,1,lb,,0,4,flz,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+314,N/A,"Rally 40WSP",SIERRA,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+315,2393-498,"RAMIK GREEN","HACO INC",N,Diphacinone,20,lb,,0,2,lb,1,station,,4,0,0,0,0,0,0,0,0,0,0,,0
+316,100-1061,REGLONE,SYNGENTA,N,"DIQUAT DIBROMIDE",3,gal,,1,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,,0
+317,n/a,Reservoir,WGM,N,,0,,,0,0.5,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+415,N/A,Resovoir,WGM,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+318,,REVOLUTION,"Aquatrols Corp. of A",N,"Modified Alkylated Polyol",0,,,1,6,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+319,432-1266,REVOLVER,Bayer,H,Foramsulforon,0,,,1,0.4,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+61,100-1091,REWARD,SYNGENTA,H,"Diquat Dibromide",1,gal,flz,1,2,qt,100,gal,,24,0,0,0,0,0,0,0,0,0,0,,0
+39,EXPERIMENTAL,RIDOMIL,NOVARTIS,N,Metalaxyl,2,lb,lb,0,0,,0,,,48,0,0,0,0,0,0,0,0,0,0,,0
+40,100-607,"RIDOMIL 2E",NOVARTIS,N,Metalaxyl,1,gal,gal,1,0,,0,,,48,0,0,0,0,0,0,0,0,0,0,,0
+322,10182-178,RO-NEET,"ICI AMERICAS",N,Cycloate,5,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2QT/50GL/AC",0
+321,12455-1,"RODENTICIDE AG",MOTOMCO,N,"ZINC PHOSPHIDE",25,lb,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+35,,"Roma Soap",,N,,1,gal,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+323,264-538,"RONSTAR 50 WSP",CHIPCO,N,Oxadiazon,0,,,0,4,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+324,264-445,"RONSTAR G",CHIPCO,N,Oxydiazon,50,lb,,0,2,lb,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+47,,"Round Up Pro",,N,,1,gal,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+325,524-505,"ROUNDUP DRY PRO","Monsanto Company",G,"74.1 Glyphosate",0,,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+79,,"Roundup Powermax",,G,,1,gal,gal,1,2,flz,1000,gal,,144,0,0,0,0,0,0,0,0,0,0,,0
+326,,"ROUNDUP PRO",,G,Glyphosate,0,,,1,2,flz,1,gal,1.5,0,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: % v",0
+327,524-475,"ROUNDUP ULTRA",MONSANTO,N,"Glyphosate Isopropylamine Salt",0,,,1,0,,0,,1,4,0,0,0,0,0,0,0,0,0,0,,0
+328,524-512,"ROUNDUP ULTRA MAX",MONSANTO,N,GLYPHOSATE,30,gal,,1,0,,0,,1,4,0,0,0,0,0,0,0,0,0,0,,0
+329,62719-142,RUBIGAN,DOW,N,Fenarimol,1,qt,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+25,,"Safari 20 SG",,N,,3,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+330,10163-254,SANDEA,Gowan,N,halosulfron-methyl,0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+331,,"Scimitar GC",,I,,1,qt,,1,3,flz,100,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+332,264-738,"SENCOR DF",BAYER,N,METRIBUZIN,5,lb,,0,0.3,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+333,N/A,SEQUESTAR,N/A,N,N/A,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+62,11656-21,"SEVIN BAIT 5%",W.F.S,I,Carbaryl,1,gal,gal,1,20,lb,1000,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+334,264-333,"SEVIN XLR PLUS","RHONE POULENC",N,Carbaryl,3,gal,,1,1,qt,100,gal,,12,0,0,0,0,0,0,0,0,0,0,,0
+80,,Shark,,N,,1,flz,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+335,,"Shark Ew","FMC CORPORATION",N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+26,,"Shuttle O",,N,,1,pt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+338,35915-12-60063,"SIM-TROL 90 DF",SOSTRAM,N,Simazine,0,,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2.2#/AC/50GAL",0
+64,19713-60,"SIMAZINE 4L",DREXEL,N,SIMAZINE,1,gal,gal,1,2,qt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+336,19713-46,"SIMAZINE 80W",DREXEL,N,Simazine,5,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2.2#/50GAL/AC",0
+63,19713-252,"simazine 90df",drexel,H,simazine,1,lb,lb,0,2.5,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+339,67702-3-aa-11656,sluggo,"first choice",N,"iron phosphate",0,,,0,30,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+81,,Smoke,,N,,1,gal,gal,1,16,flz,1000,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+340,3135-234-2934AA,"SNAIL-SLUG BAIT","WILBUR ELLIS",N,Metaldehyde,0,,,0,4,flz,1,tree,,12,0,0,0,0,0,0,0,0,0,0,,0
+341,55947-78,"SOLICAM DF",SANDOZ,N,Norflurazon,5,lb,,0,2.5,lb,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+342,N/A,SOLUBOR,N/A,N,Boron,50,lb,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+343,62719-184,SONALAN,"Dow AgroSciences",N,ethslfluralin,0,,,1,5.5,lb,1,acre,10,24,0,0,0,0,0,0,0,0,0,0,,0
+344,7969-154,SOVRAN,BASF,N,KRESOXIM,0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+424,432-1518,"Specticle Flo",Bayer,N,Indaziflam,1,gal,,1,80,,1,acre,,0,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: z",0
+345,1001-11,"SPOTRETE F","CLEARY CHEMICAL",N,Thiram,3,gal,,1,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+346,2935-92,"SPRAY SULFUR",WILBUR-ELLIS,N,SULFUR,50,lb,,0,20,lb,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+348,N/A,"SPRINT 330",CIBA,N,"IRON CHELATE",0,,,0,1,lb,1000,sqft,,0,0,0,0,0,0,0,0,0,0,0,,0
+350,"CA 5905-50068-AA",STA-PUT,"NALCO CHEMICAL CO",N,"POLYVINYL POLYMER",3,gal,,1,2,qt,100,,,0,0,0,0,0,0,0,0,0,0,0,,0
+351,62719-73,STINGER,DOW,N,CLOPYRALID,1,pt,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1/4 PT/ACRE",0
+65,,"Stylet Oil",,N,,1,gal,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+352,100-619,SUBDUE,NOVARTIS,N,Metalaxyl,0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+353,100-796,"SUBDUE MAXX",SYNGENTA,N,Mefenoxam,0,,,1,0.5,flz,1000,sqft,,4,0,0,0,0,0,0,0,0,0,0,,0
+34,62719-292,SUCCESS,DOW,N,Spinosad,1,gal,flz,1,6,flz,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+66,,Sulfur,,N,,1,gal,gal,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+354,N/A,"sulfur 92",N/A,N,sulfur,0,,,0,1,lb,1,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+355,10182-143,"SULPHUR 98%",ICI,N,,0,,,0,4,lb,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+356,10551-1,"super gasser","atlas chemical corp",N,"sodium nitrate/sulfur",0,,,0,1,,1,hole,,0,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: None",0
+357,N/A,"SUPER PHOS 0-45-0",SIMPLOT,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+27,62719-112,"SURFLAN AS",DOWELANCO,N,Oryzalin,5,gal,ml,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1QT/50GAL/AC",0
+358,20060-14,SURROUND,ENGELHARD,N,KAOLIN,25,lb,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+359,476-2156AA,SUTAN,STAUFFER,N,Butylate,3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 2QT/50GL/AC",0
+360,,Tactic,"Loveland Products",N,"Synthetic Latex",0,,,1,8,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+361,279-3206-ZC,"TALSTAR P","FMC Professional Sol",N,"7.9- Bifenthrin",0,,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+28,,"Talstar Select",,N,,1,gal,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+362,264-426,"TEMIK 15G","RHONE POULENC",N,Aldicarb,45,lb,,0,13,lb,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+363,432-1363,Tempo,"Bayer Env. Sci.",N,11.B-B-Cyfluthrin,0,,,1,0,,0,,,1,0,0,0,0,0,0,0,0,0,0,,0
+364,,"Tempo 20wp",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+365,N/A,Tenacity,,N,,0,,,0,5,flz,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+366,909-CA-1,TERRACLOR,"COOKE LABS",N,Pentachloronitrobenzene,0,,,0,0,,0,,,4,0,0,0,0,0,0,0,0,0,0,,0
+367,241-257-51036,"THIMET 20G",MICRO-FLO,N,PHORATE,40,lb,,0,13,lb,1,acre,,72,0,0,0,0,0,0,0,0,0,0,,0
+368,10182-158,"TILLAM 6E",ICI,N,Pebulate,3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 3QT/50GL/AC",0
+83,,Treevix,,H,,1,flz,flz,1,1,flz,100,gal,,48,0,0,0,0,0,0,0,0,0,0,,0
+44,,Treflan,,N,,1,gal,flz,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+369,5905-532,"TREFLAN 4 EC","HELENA CHEMICAL",H,TRFLURALIN,0,,,1,1.2,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+370,62719-118,"TREFLAN 5",DOWELANCO,N,Trifluralin,3,gal,,1,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 1.2PT/50GL/AC",0
+371,1471-120,"TREFLAN 5G",ELANCO,N,Tifluralin,25,lb,,0,0,,0,,,12,0,0,0,0,0,0,0,0,0,0,,0
+372,62719-250,"TREFLAN HFP",DOW,H,,3,gal,,1,1,pt,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+416,432-1519,"Tribute Total",Bayer,H,Halosulfuron,6,oz,,0,2,flz,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+84,10163-99,"TRIFLURALIN 5",GOWAN,H,Trifluralin,1,flz,flz,1,1.2,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+373,,"TRIFLUREX HFP",,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+374,67959-4,TRILIN,TRICORP,N,TRFLURALIN,0,,,1,1,pt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+375,2217-517,TRIMEC,"PBI GORDON",H,"Dimethylamine Salt",0,,,1,4,pt,1000,acre,,4,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 4PT/50GL/AC",0
+377,N/A,"Triple 15",Yara,N,,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+29,,"Tristar 8.5SL",,N,,1,qt,ml,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+378,62719-258,TURFLON,DOW,N,Triclopyr,0,,,1,1,qt,1,acre,,12,0,0,0,0,0,0,0,0,0,0,,0
+379,,"Ultra Fine Oil",,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+380,N/A,"ULTRA GRN 11-8-5+MIC",N/A,N,,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+381,69526-5-499,"ultra pure oil","whitmire micro-gen",N,"petroleum oil",0,,,0,0.5,gal,100,gal,,4,0,0,0,0,0,0,0,0,0,0,,0
+382,862-28-270,Ultra-Fine,"Farnam Companies",N,"Paraffinic Oil",1,qt,,1,0,,0,,0.25,12,0,0,0,0,0,0,0,0,0,0,,0
+52,N/A,"UN 32",CHEVRON,N,,1,gal,gal,1,1.4,gal,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+383,n/a,UN20,N/A,N,Nitrogen,0,,,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+384,352-569,UPBEET,DuPont,N,Triflusulfuron,4,oz,,0,1,flz,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+53,,Urea,,N,,1,gal,gal,1,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+385,N/A,"UREA (LOW BIURET)",N/A,Z,,0,,,0,20,lb,100,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+386,N/A,"UREA 46%",UNOCAL,N,,0,,,0,230,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+46,,Urea/SOP,,N,,1,lb,oz,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+387,10182-392,"VAPAM HL",ZENECA,N,"SODIUM METHYLDITHIOCARBAMATE",30,gal,,1,28,gal,1,acre,,48,0,0,0,0,0,0,0,0,0,0,,0
+388,59639-136,VELOCITY,Valent,N,Bispyribac-sodium,0,,,1,20,gal,1,acre,3,12,0,0,0,0,0,0,0,0,0,0,,0
+389,352-392,"VELPAR L","DU PONT",N,Hexazinone,3,gal,,1,2,pt,1,acre,,24,0,0,0,0,0,0,0,0,0,0,,0
+30,,"Veranda O",,N,,1,lb,gr,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+390,39834-1,VERATRAN-D,PRENTISS,N,"Sabadilla Alkaloids",50,lb,,0,0,,0,,,24,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate: 20#/240GL/AC",0
+391,7969-85-58185,"VORLAN DF",SCOTTS-SIERRA,N,VINCLOZOLIN,0,,,0,1,flz,1000,sqft,,12,0,0,0,0,0,0,0,0,0,0,,0
+48,,"Warrior II",,I,,1,gal,gal,1,1,flz,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+393,2853-38,"WEED-HOE 108","VINELAND CHEMICAL",N,"Monosodium Acid Methanearsonate",1,gal,,1,1.5,flz,1000,,,24,0,0,0,0,0,0,0,0,0,0,,0
+396,59209-1-70506,WEEVIL-CIDE,"UNITED PHOSPHORUS",N,"ALUMINUM PHOSPHIDE",3,lb,,0,2,,1,hole,,4,0,0,0,0,0,0,0,0,0,0,"Ambiguous defRate unit: tabs",0
+397,36029-CA-01,"Wilco gopher bait","WILCO DISTRIBUTORS",R,"Strychnine Alkaloids",50,lb,,0,1,drz,1,sqft,,4,0,0,0,0,0,0,0,0,0,0,,0
+398,36029-25,"Wilco Gopher Getter","wilco distributors",N,"strychnine alkaloid 1.8%",0,,,0,1,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+399,36029-50004-AA,"WILCO GRND SQUIRREL",WILCO,N,Strychnine,30,lb,,0,2,lb,1,station,,4,0,0,0,0,0,0,0,0,0,0,,0
+400,,Wrangler,"Loveland Products",N,Imidacloprid,0,,,1,8,flz,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+54,275-85,XENTARI,ABBOTT,N,"Bacillus Thuringiensis",5,lb,lb,0,1,lb,1,acre,,4,0,0,0,0,0,0,0,0,0,0,,0
+401,N/A,"ZINC 14%",N/A,Z,,0,,,0,1,lb,1000,gal,,0,0,0,0,0,0,0,0,0,0,0,,0
+402,11150-50014-AA,"ZINC PHOSPHIDE","STATE OF CA",N,,5,lb,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+403,N/A,"ZINC SULFATE",N/A,N,ZINC,0,,,0,0,,0,,,0,0,0,0,0,0,0,0,0,0,0,,0
+404,N/A,"ZINC SULFATE 36%","CO ZIN CO",N,,0,,,0,1.5,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+405,,Zinc/Manganese,,Z,,0,,,1,1,lb,1000,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
+407,N/A,Zn/Mn,N/A,N,Zinc/Manganese,0,,,0,16,lb,1,acre,,0,0,0,0,0,0,0,0,0,0,0,,0
