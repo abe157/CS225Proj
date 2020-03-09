@@ -86,7 +86,7 @@ app.post('/GetAppPlotInfo', (request, response) => {
   console.log(request_body);
   // var query_str = 'select * FROM `app_record` WHERE Location=' + request_body["OBJECTID"]
 
-  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND `daycompleted` IS NULL;";
+  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND `Day Completed` IS NULL;";
   // console.log( query_str );
   // var query_str = 'select * FROM `app_record` WHERE Location=' +
   connection.query(query_str, (err,rows) => {
@@ -111,7 +111,7 @@ app.post('/GetRecentPlotInfo', (request, response) => {
   console.log(request_body);
   // var query_str = 'select * FROM `app_record` WHERE Location=' + request_body["OBJECTID"]
 
-  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND daycompleted > DATE_SUB(NOW(), INTERVAL 7 DAY);";
+  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND `Day Completed` > DATE_SUB(NOW(), INTERVAL 7 DAY);";
   // console.log( query_str );
   // var query_str = 'select * FROM `app_record` WHERE Location=' +
   connection.query(query_str, (err,rows) => {
