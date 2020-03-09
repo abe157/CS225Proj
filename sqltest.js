@@ -68,7 +68,7 @@ app.post('/GetPlotInfo', (request, response) => {
   var request_body = request.body;
   var query_str = 'select * FROM `agricultural_preserves` WHERE OBJECTID=' + request_body["OBJECTID"]
   console.log( query_str );
-  // var query_str = 'select * FROM `app_record` WHERE Location=' +  
+  // var query_str = 'select * FROM `app_record` WHERE Location=' +
   connection.query(query_str, (err,rows) => {
     if(err){
       response.end();
@@ -80,14 +80,40 @@ app.post('/GetPlotInfo', (request, response) => {
   });
 });
 
-
+//query now returns all object where day completed is empty
 app.post('/GetAppPlotInfo', (request, response) => {
   var request_body = request.body;
   console.log(request_body);
   // var query_str = 'select * FROM `app_record` WHERE Location=' + request_body["OBJECTID"]
-  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + ";";
+
+  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND `daycompleted` IS NULL;";
   // console.log( query_str );
-  // var query_str = 'select * FROM `app_record` WHERE Location=' +  
+  // var query_str = 'select * FROM `app_record` WHERE Location=' +
+  connection.query(query_str, (err,rows) => {
+    if(err){
+      console.log(".post(GetAppPlotInfo) failed");
+      console.log(err.message);
+      console.log(query_str);
+      response.end();
+      return;
+    }
+    // console.log( rows );
+    // console.log(query_str);
+    console.log('.post(GetAppPlotInfo) Data sent');
+    response.json( rows );
+  });
+});
+
+
+//query now returns all object where day completed is empty
+app.post('/GetRecentPlotInfo', (request, response) => {
+  var request_body = request.body;
+  console.log(request_body);
+  // var query_str = 'select * FROM `app_record` WHERE Location=' + request_body["OBJECTID"]
+
+  var query_str = 'select * FROM `app` WHERE fieldid=' + request_body["OBJECTID"] + " AND daycompleted > DATE_SUB(NOW(), INTERVAL 7 DAY);";
+  // console.log( query_str );
+  // var query_str = 'select * FROM `app_record` WHERE Location=' +
   connection.query(query_str, (err,rows) => {
     if(err){
       console.log(".post(GetAppPlotInfo) failed");
@@ -130,7 +156,7 @@ app.get('/GetAllPeronnel', (request, response) => {
 // *************************************
 
 app.post('/SubmitOrder', (request, response) => {
-  var request_body = request.body;  
+  var request_body = request.body;
   console.log(request_body["field_name"]);
 
   const field_name = request_body["field_name"];
@@ -153,8 +179,8 @@ app.post('/SubmitOrder', (request, response) => {
   +"\""+datetime+"\""+") ;";
 
 
-  
-  
+
+
 
 
   connection.query(query, (err,rows) => {
@@ -172,13 +198,3 @@ app.post('/SubmitOrder', (request, response) => {
   });
 
 });
-
-
-
-
-
-
-
-
-
-

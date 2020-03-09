@@ -21,9 +21,9 @@ function OfflineMap() {
 
 // async function GetOrderHtml(){
 //   const options = {
-//     method: "GET", 
+//     method: "GET",
 //   };
-//   const response = await fetch("order.html", options); //method is 
+//   const response = await fetch("order.html", options); //method is
 //   return response;
 // }
 
@@ -34,16 +34,15 @@ function OfflineMap() {
 async function AddPolygon(field, map, color='blue'){
 	/*
 	blue: No information
-	red: Order Needs filled
-	yellow: reccently applied
+	red: reccently applied
 	orange: Scheduled, needs to be filled
-	*/ 
+	*/
 
 	var popupContent = field.itemhtml.getElementsByTagName("description")[0].childNodes[6];
 
 
 	var plantID = popupContent.getElementsByTagName("td")[0].innerHTML ;
-	var objectID = popupContent.getElementsByTagName("td")[3].innerHTML ; 
+	var objectID = popupContent.getElementsByTagName("td")[3].innerHTML ;
 
 
 	const order_button = document.createElement('button');
@@ -70,12 +69,23 @@ async function AddPolygon(field, map, color='blue'){
 
 
 	const feild_info = await GetAppPlotInfo(objectID);
+  const field_complete = await GetRecentPlotInfo(objectID);
+
+  //query now returns all object where day completed is empty
 	if(feild_info.length > 0){
 		color = 'orange';
 		var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
 		polygon.bindPopup(popupContent);
 		return;
-	} 
+	}
+
+  //query returns objects where reccently applied
+  if(field_complete.length > 0){
+    color = 'red';
+    var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
+    polygon.bindPopup(popupContent);
+    return;
+  }
 
 	var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
 	polygon.bindPopup(popupContent);
@@ -113,10 +123,6 @@ function LoadMap() {
 		// break; // place here for testing with a feild
 	}
 
-	showPosition(mymap);	
+	showPosition(mymap);
 
 }
-
-
-
-
