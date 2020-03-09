@@ -3,8 +3,8 @@
 async function GetPlotInfo(plot_num){
   const data = {"OBJECTID": plot_num};
   const options = {
-    method: "POST", 
-    headers: { "Content-Type": "application/json", }, 
+    method: "POST",
+    headers: { "Content-Type": "application/json", },
     body: JSON.stringify(data)
   };
   const response = await fetch("/GetPlotInfo", options);
@@ -17,9 +17,9 @@ async function GetPlotInfo(plot_num){
 
 async function GetAllProducts(){
   const options = {
-    method: "GET", 
+    method: "GET",
   };
-  const response = await fetch("/GetAllProducts", options); //method is 
+  const response = await fetch("/GetAllProducts", options); //method is
   const data = await response.json()
   return data;
 }
@@ -27,18 +27,19 @@ async function GetAllProducts(){
 
 async function GetAllPeronnel(){
   const options = {
-    method: "GET", 
+    method: "GET",
   };
-  const response = await fetch("/GetAllPeronnel", options); //method is 
+  const response = await fetch("/GetAllPeronnel", options); //method is
   const data = await response.json()
   return data;
 }
 
+//query now returns all object where day completed is empty
 async function GetAppPlotInfo(plot_num){
   const data = {"OBJECTID": plot_num};
   const options = {
-    method: "POST", 
-    headers: { "Content-Type": "application/json", }, 
+    method: "POST",
+    headers: { "Content-Type": "application/json", },
     body: JSON.stringify(data)
   };
   const response = await fetch("/GetAppPlotInfo", options);
@@ -56,7 +57,7 @@ async function GetForm(field_id){
   const root = document.createElement('form');
 
   // Field ID Name ////////////////////////////////////////////
-  
+
   const field_group = document.createElement('div');
   field_group.setAttribute('class',"form-group")
 
@@ -95,7 +96,7 @@ async function GetForm(field_id){
       const pest_select_item = document.createElement('option');
       pest_select_item.textContent = item.strChemical + ", " + item.strManufacturer;
       pest_select.appendChild(pest_select_item);
-    }    
+    }
     pest_group.appendChild(pest_select);
   } catch(err){
     console.log(err.message);
@@ -163,7 +164,7 @@ async function GetForm(field_id){
   phi_group.appendChild(phi_field);
 
   // equipment ////////////////////////////////////////////
-  
+
   const equip_group = document.createElement('div');
   equip_group.setAttribute('class',"form-group")
 
@@ -200,7 +201,7 @@ async function GetForm(field_id){
       const tech_select_item = document.createElement('option');
       tech_select_item.textContent = item.Technician;
       tech_select.appendChild(tech_select_item);
-    }    
+    }
     tech_group.appendChild(tech_select);
   } catch(err){
     console.log(err.message);
@@ -320,8 +321,8 @@ async function SubmitOrder(){
   }
 
   const options = {
-    method: "POST", 
-    headers: { "Content-Type": "application/json", }, 
+    method: "POST",
+    headers: { "Content-Type": "application/json", },
     body: JSON.stringify(data)
   };
   const resp = await fetch("/SubmitOrder", options);
@@ -371,7 +372,7 @@ async function GetOrders(field_id){
     col_title.setAttribute("class","list-group-item col disabled");
     col_title.innerHTML =   "<b> Order # "+count+"</b> ";
     rows.appendChild(col_title);
-    count += 1; 
+    count += 1;
 
     for(key of Object.keys(item)){
       const col = document.createElement('div');
@@ -425,7 +426,7 @@ async function GetOrdersToDocument(field_id){
     col_title.setAttribute("class","list-group-item col disabled");
     col_title.innerHTML =   "<b> Order # "+count+"</b> ";
     rows.appendChild(col_title);
-    count += 1; 
+    count += 1;
 
     for(key of Object.keys(item)){
       const col = document.createElement('div');
@@ -497,5 +498,3 @@ async function GetOrdersToDocument(field_id){
 
   document.body.append(root);
 }
-
-
