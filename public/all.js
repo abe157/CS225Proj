@@ -48,6 +48,19 @@ async function GetAppPlotInfo(plot_num){
 }
 
 
+async function GetRecentPlotInfo(plot_num){
+  const data = {"OBJECTID": plot_num};
+  const options = {
+    method: "POST",
+    headers: { "Content-Type": "application/json", },
+    body: JSON.stringify(data)
+  };
+  const response = await fetch("/GetRecentPlotInfo", options);
+  const response_data = await response.json();
+  return response_data;
+}
+
+
 // Functions for the Order page
 
 async function GetForm(field_id){

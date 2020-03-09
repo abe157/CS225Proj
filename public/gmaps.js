@@ -34,8 +34,7 @@ function OfflineMap() {
 async function AddPolygon(field, map, color='blue'){
 	/*
 	blue: No information
-	red: Order Needs filled
-	yellow: reccently applied
+	red: reccently applied
 	orange: Scheduled, needs to be filled
 	*/
 
@@ -68,14 +67,25 @@ async function AddPolygon(field, map, color='blue'){
 	popupContent.append(view_button);
 	popupContent.append(document_button);
 
-//query now returns all object where day completed is empty
+
 	const feild_info = await GetAppPlotInfo(objectID);
+  const field_complete = await GetRecentPlotInfo(objectID);
+
+  //query now returns all object where day completed is empty
 	if(feild_info.length > 0){
 		color = 'orange';
 		var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
 		polygon.bindPopup(popupContent);
 		return;
 	}
+
+  //query returns objects where reccently applied
+  if(field_complete.length > 0){
+    color = 'red';
+    var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
+    polygon.bindPopup(popupContent);
+    return;
+  }
 
 	var polygon = L.polygon(field.polygons, {color: color}).addTo(map);
 	polygon.bindPopup(popupContent);
