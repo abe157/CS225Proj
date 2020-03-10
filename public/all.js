@@ -402,6 +402,60 @@ async function GetOrders(field_id){
 
 
 // Functions for the Document Page page
+async function SubmitDoc(){
+  const field_name = document.getElementById("field_name").value;
+  const pest_select = document.getElementById("pest_select").value;
+  const rate_field = document.getElementById("rate_field").value;
+  const rei_field = document.getElementById("rei_field").value;
+  const phi_field = document.getElementById("phi_field").value;
+  const equip_field = document.getElementById("equip_field").value;
+  const tech_field = document.getElementById("tech_field").value;
+  const datetime = document.getElementById("datetimepicker1").value;
+
+  // console.log(field_name);
+  // console.log(pest_select);
+  // console.log(rate_field);
+  // console.log(rei_field);
+  // console.log(phi_field);
+  // console.log(equip_field);
+  // console.log(tech_field);
+  // console.log(typeof datetime);
+
+  // Some error checking here
+  if(field_name == ""){ alert("Error with feild name"); return;}
+  if(pest_select == ""){ alert("Error with pesticied entered"); return;}
+  if(rate_field == ""){ alert("Error with rate entered"); return;}
+  if(rei_field == ""){ alert("Error with REI entered"); return;}
+  if(phi_field == ""){ alert("Error with PHI entered"); return;}
+  if(equip_field == ""){ alert("Error with feild name"); return;}
+  if(tech_field == ""){ alert("Error with technician entered"); return;}
+  if(datetime == ""){ alert("Error with Day Scheduled"); return;}
+
+  const data = {
+    "field_name" : field_name,
+    "pest_select" : pest_select,
+    "rate_field" : rate_field,
+    "rei_field" : rei_field,
+    "phi_field" : phi_field,
+    "equip_field" : equip_field,
+    "tech_field" : tech_field,
+    "datetime" : datetime,
+  }
+
+  const options = {
+    method: "POST",
+    headers: { "Content-Type": "application/json", },
+    body: JSON.stringify(data)
+  };
+  const resp = await fetch("/SubmitDoc", options);
+  if(resp.status == 200){
+    alert("Doc Submitted Successfully!");
+  } else {
+    alert("Error Submitting Doc!");
+  }
+
+}
+
 
 async function GetOrdersToDocument(field_id){
   const fieldinfo = await GetAppPlotInfo(field_id);
@@ -492,7 +546,7 @@ async function GetOrdersToDocument(field_id){
     submit_button.setAttribute("type","button");
     submit_button.setAttribute("class","btn btn-secondary");
     submit_button.textContent="Submit Doc.";
-    // submit_button.setAttribute("onclick","SubmitOrder();");
+    submit_button.setAttribute("onclick","SubmitDoc();");
     button_group.appendChild(submit_button)
 
     rows.appendChild(button_group);
