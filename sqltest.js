@@ -198,3 +198,39 @@ app.post('/SubmitOrder', (request, response) => {
   });
 
 });
+
+
+//
+app.post('/SubmitDoc', (request, response) => {
+  var request_body = request.body;
+  console.log(request_body["field_name"]);
+
+  const field_name = request_body["field_name"];
+  const pest_select = request_body["pest_select"].split(",")[0];
+  const rate_field = request_body["rate_field"];
+  const rei_field = request_body["rei_field"];
+  const phi_field = request_body["phi_field"];
+  const equip_field = request_body["equip_field"];
+  const tech_field = request_body["tech_field"];
+  const day_completed = request_body["datetime"];
+
+  connection.query("SET SQL_SAFE_UPDATES = 0;");
+  const query =  "UPDATE app SET `Day Completed` = \"" + day_completed + "\" WHERE fieldid = " + field_name + ";";
+
+  connection.query(query, (err,rows) => {
+    if(err){
+      console.log(".post(SubmitDoc) failed");
+      console.log(err.message);
+      console.log(query);
+      response.end();
+      return;
+    }
+    // response.json( rows );
+    // console.log( rows );
+    console.log(".post(SubmitDoc) Data entered");
+    response.json({ status: 'SUCCESS' });
+  });
+
+  connection.query("SET SQL_SAFE_UPDATES = 1;");
+
+});
