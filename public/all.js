@@ -345,6 +345,8 @@ async function SubmitOrder(){
     alert("Error Submitting Order!");
   }
 
+  window.location.replace("http://localhost:3000/index.html");
+
 }
 
 // Functions for the View page
@@ -455,7 +457,7 @@ async function SubmitDoc(count){
   } else {
     alert("Error Submitting Doc!");
   }
-
+  window.location.replace("http://localhost:3000/index.html");
 }
 
 
