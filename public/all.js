@@ -402,15 +402,17 @@ async function GetOrders(field_id){
 
 
 // Functions for the Document Page page
-async function SubmitDoc(){
-  const field_name = document.getElementById("field_name").value;
-  const pest_select = document.getElementById("pest_select").value;
-  const rate_field = document.getElementById("rate_field").value;
-  const rei_field = document.getElementById("rei_field").value;
-  const phi_field = document.getElementById("phi_field").value;
-  const equip_field = document.getElementById("equip_field").value;
-  const tech_field = document.getElementById("tech_field").value;
-  const datetime = document.getElementById("datetimepicker1").value;
+async function SubmitDoc(count){
+  const field_name = document.getElementById("fieldid" + count.toString() ).getAttribute("value");
+  // console.log(field_name);
+  // return;
+  const pest_select = document.getElementById("Pesticide" + count.toString() ).getAttribute("value");
+  const rate_field = document.getElementById("Rate" + count.toString() ).getAttribute("value");
+  const rei_field = document.getElementById("REI" + count.toString() ).getAttribute("value");
+  const phi_field = document.getElementById("PHI" + count.toString() ).getAttribute("value");
+  const equip_field = document.getElementById("Equipment" + count.toString() ).getAttribute("value");
+  const tech_field = document.getElementById("Technician" + count.toString() ).getAttribute("value");
+  const datetime = document.getElementById("datetimepicker" + count.toString() ).value;
 
   // console.log(field_name);
   // console.log(pest_select);
@@ -499,6 +501,9 @@ async function GetOrdersToDocument(field_id){
       const col = document.createElement('div');
       col.setAttribute("class","list-group-item col");
       col.innerHTML =   "<b>" + key + ":</b> " + item[key];
+      var identifier = key + count.toString();
+      col.setAttribute("id", identifier);
+      col.setAttribute("value", item[key]);
       rows.appendChild(col);
     }
 
@@ -516,7 +521,8 @@ async function GetOrdersToDocument(field_id){
     const date_text = document.createElement('input');
     date_text.setAttribute("class","form-control");
     date_text.setAttribute("type","text");
-    date_text.setAttribute("id","datetimepicker1");
+    var datetimepicker_id = "datetimepicker" + count.toString();
+    date_text.setAttribute("id",datetimepicker_id);
 
     const date_span = document.createElement('span');
     date_span.setAttribute("class","input-group-addon");
@@ -525,7 +531,7 @@ async function GetOrdersToDocument(field_id){
 
     const date_script = document.createElement('script');
     date_script.setAttribute("type","text/javascript");
-    date_script.textContent = "$(function() { $('#datetimepicker1').datetimepicker({format: 'YYYY-MM-DD hh:mm:ss'}); });"
+    date_script.textContent = "$(function() { $('#"+datetimepicker_id+"').datetimepicker({format: 'YYYY-MM-DD hh:mm:ss'}); });"
 
 
     date_span.appendChild(date_span_a);
@@ -546,7 +552,8 @@ async function GetOrdersToDocument(field_id){
     submit_button.setAttribute("type","button");
     submit_button.setAttribute("class","btn btn-secondary");
     submit_button.textContent="Submit Doc.";
-    submit_button.setAttribute("onclick","SubmitDoc();");
+    var submit_exec = "SubmitDoc(" + count.toString() + ");";
+    submit_button.setAttribute("onclick",submit_exec);
     button_group.appendChild(submit_button)
 
     rows.appendChild(button_group);
