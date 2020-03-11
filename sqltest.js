@@ -214,7 +214,8 @@ app.post('/SubmitDoc', (request, response) => {
   const tech_field = request_body["tech_field"];
   const day_completed = request_body["datetime"];
 
-  const query =  "SET SQL_SAFE_UPDATES = 0; UPDATE app SET `Day Completed` = " + day_completed + " WHERE fieldid = " + field_name + "; SET SQL_SAFE_UPDATES = 1;";
+  connection.query("SET SQL_SAFE_UPDATES = 0;");
+  const query =  "UPDATE app SET `Day Completed` = \"" + day_completed + "\" WHERE fieldid = " + field_name + ";";
 
   connection.query(query, (err,rows) => {
     if(err){
@@ -229,5 +230,7 @@ app.post('/SubmitDoc', (request, response) => {
     console.log(".post(SubmitDoc) Data entered");
     response.json({ status: 'SUCCESS' });
   });
+
+  connection.query("SET SQL_SAFE_UPDATES = 1;");
 
 });
