@@ -34,5 +34,6 @@ WAR file:
 
 Future work:
 1. Need to debug with "completed order view", should turn "red".
-2. Need test and debug with query "select completed date DATE_SUB(NOW(), INTERVAL 7 DAYS)"
-3. Need to test oackaging WAR file and the connections with cloud server
+2. Need test and debug with query "select completed date DATE_SUB(NOW(), INTERVAL 7 DAYS)".
+3. Need to test oackaging WAR file and the connections with cloud server.
+4. Need to connect login.html page and other log in staff.
