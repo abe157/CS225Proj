@@ -1,0 +1,37 @@
+Required environment:
+- maven, mysql, java jdk 1.8
+
+Should modified:
+- file "application.properties" should modified to fit your local mysql server
+  spring.datasource.url = jdbc:mysql://localhost:3306/.....
+  spring.datasource.username = .....
+  spring.datasource.password = .....
+
+- file "data.sql" could generate temporary queries. Could be removed if has all required tables locally
+  The "Products" table in this version only contains two attributes for tesing only
+  Coulc modify "Products" in the model file, add more attrubutes.
+ 
+- file "WebConfig" 
+  Add more file path to the strcuture if you need add more front-end folders under
+ 
+How to run on locally:
+- cd to the project folder
+- mvn clean
+- mvn install
+- java -jar target/TEST-0.0.1-SNAPSHOT.jar
+- open http://localhost:8080
+
+WAR file:
+- packaging war file has not been tested yet
+- could modify pom.xml file by adding
+  1. <packaging>war</packaging>
+  2.  <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-tomcat</artifactId>
+        <scope>provided</scope>
+    </dependency>
+
+Future work:
+1. Need to debug with "completed order view", should turn "red".
+2. Need test and debug with query "select completed date DATE_SUB(NOW(), INTERVAL 7 DAYS)"
+3. Need to test oackaging WAR file and the connections with cloud server
