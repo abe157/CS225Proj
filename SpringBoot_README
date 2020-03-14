@@ -10,6 +10,7 @@ Should modified:
 - file "data.sql" could generate temporary queries. Could be removed if has all required tables locally
   The "Products" table in this version only contains two attributes for tesing only
   Coulc modify "Products" in the model file, add more attrubutes.
+  Note that the class name in under model folder should be same as in the databse table
  
 - file "WebConfig" 
   Add more file path to the strcuture if you need add more front-end folders under
