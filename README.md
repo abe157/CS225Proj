@@ -9,6 +9,10 @@ version 0.03 test to get some of the front end working with a local SQL
 - npm
 - NodeJS
 
+## Presentation
+
+[YouTube Presentation](https://www.youtube.com/watch?v=fV1Jw3DRTrQ&t=526s)
+
 ## Instructions
 
 1. Install `npm`,`node` and `nodemon`
